@@ -17,20 +17,24 @@ section{
 }
   
 h1{
-    font: size 150px;
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: bolder
 }
 .darkmagenta-color{
     color: rgb(106, 115, 243);
 }
-section{
-    display: flex
-}
 .half-width{
     width: 50%;
     padding-left: 5% ;
+    padding-right: 5%;
 }
 .half-width img{
-    width: 50%;
+    width: 80%;
 }
 .center{
     margin: auto;
@@ -49,8 +53,8 @@ section{
     min-width: 8%;
     resize: both;
     overflow: auto;
-    max-height: 25%;
-    max-width: 15%;
+    max-height: 30%;
+    max-width: 20%;
     margin-right: 10%;
     margin-left: 10%;
     margin-top: 4%;
@@ -66,4 +70,16 @@ border-radius: 25px;
 }
 .top-banner{
 background-image: url(/images/shapes/shape-1.png);
+}
+
+footer{
+    background-color: darkslategray;
+    height: 10%;
+    text-align: center;
+    position:relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border-top: 1px solid white;
 }
